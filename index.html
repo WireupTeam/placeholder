@@ -7,10 +7,10 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000">
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono|Ubuntu" rel="stylesheet">
   <style type="text/css">
     body {
-      font-family: 'Ubuntu Mono', monospace;
+      font-family: 'Ubuntu', sans-serif;
       display: grid;
       height: 100vh;
       margin: 0;
@@ -20,8 +20,20 @@
       color: #9f9f9f;
     }
 
+    a {
+      color: #fff;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
     .content {
         margin: 0 5em;
+    }
+
+    .brand {
+      font-family: 'Ubuntu Mono', monospace;
     }
 
     .page-subtitle {
@@ -30,7 +42,7 @@
 
     .page-subtitle strong {
         animation: blink-text 1.9s linear infinite;
-        color: #78ff69;
+        color: #78BE21;
     }
 
     @keyframes blink-text {
@@ -54,7 +66,7 @@
     <h1 class="page-title">Connecting the world with one network.</h1>
     <h1 class="page-subtitle">Two steps at a time<strong>.</strong></h1>
     <br><br><br><br>
-    <p>Wireup</p>
+    <p class="brand">Wireup</p>
   </div>
 </body>
 
